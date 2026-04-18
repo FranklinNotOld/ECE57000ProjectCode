@@ -1,0 +1,19 @@
+This directory contains a modified fork of Trajectron++
+(https://github.com/StanfordASL/Trajectron-plus-plus), originally
+released under the MIT License by the Stanford Autonomous Systems Lab.
+
+Modifications made for this work:
+- Added CONE node type support for modeling traffic cones as scene agents
+- Extended map encoder to accept additional heatmap channels (drivable-area)
+- Added work-zone-specific data preprocessing pipeline
+- Integrated cone raster / PointNet / scene-graph encoding modes (B-A/B-B/B-C)
+- Modified evaluate.py to support cached heatmap input and work-zone metrics
+- Added environment building scripts for SUMO simulation data
+
+Original Trajectron++ paper:
+  Tim Salzmann, Boris Ivanovic, Punarjay Chakravarty, Marco Pavone.
+  "Trajectron++: Dynamically-Feasible Trajectory Forecasting With
+  Heterogeneous Data." ECCV 2020.
+
+Original License: MIT License
+Copyright (c) 2020 Stanford Autonomous Systems Lab

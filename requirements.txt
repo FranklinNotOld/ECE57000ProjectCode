@@ -1,0 +1,36 @@
+# =============================================================================
+# Requirements for Drivable Area Mapping Sumo-Trajectron Experiment
+# Python 3.12 | CUDA 13.0
+#
+# Setup:
+#   conda create -n Research-Drivable_Area_Mapping python=3.12
+#   conda activate Research-Drivable_Area_Mapping
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+#   pip install -r requirements.txt
+#
+# Note: SUMO (traci) is not a pip package; install SUMO separately and ensure
+#       SUMO_HOME/tools is on sys.path.
+# =============================================================================
+
+# --- Core Scientific Stack ---
+numpy>=2.4,<3
+pandas>=3.0,<4
+scipy>=1.17,<2
+scikit-learn>=1.8,<2
+
+# --- Deep Learning (install torch/torchvision first, see header) ---
+# torch>=2.10  (installed separately with CUDA support)
+# torchvision>=0.25  (installed separately with CUDA support)
+tensorboardX>=2.6,<3
+
+# --- Visualization ---
+matplotlib>=3.10,<4
+seaborn>=0.13,<1
+
+# --- Data / Serialization ---
+dill>=0.4,<1
+orjson>=3.11,<4
+opencv-python>=4.13,<5
+
+# --- Utilities ---
+tqdm>=4.67,<5
