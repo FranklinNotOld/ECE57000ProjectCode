@@ -9,7 +9,7 @@ via Trajectory-Conditioned Generative Model for Work Zone Safety"* (currently un
 ## !! IMPORTANT: Code Release Status
 
 > **This course-project submission is derived from an unpublished research
-> project.** Because the associated manuscript is currently under review,
+> paper.** Because the associated manuscript is currently under review,
 > **some core components are intentionally withheld** from this release.
 
 ### Withheld Components
